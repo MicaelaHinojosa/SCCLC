@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    /*background-color: ;*/
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+   /* position: fixed;*/
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 6.25rem;
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.logo {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-left: 3rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav h2 {
+    margin-right: 2rem;
+    font-size: 1.25rem;
+    padding: 0.625rem;
+    color:  #5c8001;
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+
+.nav a {
+    text-decoration: none;
+
+}
+
+.page-1 {
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(20, 1fr);
+    height: 37rem;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(./images/mars-sector-6-IgUR1iX0mqM-unsplash.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.page-1 > .mission {
+    background-color: #f2f2f2;
+    margin: 0rem;
+    width: 32rem;
+    height: 36rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    line-height: 2.25rem;
+    grid-row-end: 11;
+     
+}
+
+
+.mission > h2 {
+    font-size: 2.5rem;
+    margin: 0rem 4rem 0rem 4rem;
+    color:  #5c8001;
+    font-family: 'Cormorant Garamond', sans-serif;
+
+}
+
+.mission > p {
+    font-size: 1.3rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    font-family: 'Montserrat';
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.s-values {
+    padding-top: 3rem;
+    color: #5c8001;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 2.5rem;
+}
+
+.values .our-values {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 3rem 1rem 0.75rem;
+}
+
+.our-values li {
+    padding: 0.75rem 0.5rem 0rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border: 1px solid #f2c602;
+}
+
+.our-values h4 {
+    margin: 0rem;
+    padding: 1rem 8.1rem 1rem 8.1rem;
+    font-family: 'Montserrat';
+}
+
+.our-values img{
+    width: 20rem;
+    overflow: hidden;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.page-3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.stories {
+    text-align: center;
+    color: #5c8001;
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.page-3 .staff {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem 3rem 1rem 0.75rem;
+}
+
+.staff li {
+    margin: 1rem;
+    padding: 0;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.staff img {
+    width: 100%;
+    height: auto;
+    margin: 0rem;
+    padding: 0rem;
+    border: 3px solid #5c8001;
+}
+
+
+.staff h4 {
+    background-color: #7cb518;
+    border: 3px solid #7cb518;
+    color: white;
+    margin: 0;
+    font-family: 'Montserrat';
+    width: 20rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.page-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-4 .meet {
+    text-align: center;
+    color: #f2c602;
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.page-4 .alumni{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 3rem 1rem 0.75rem;
+}
+
+.alumni li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    height: auto;
+    margin: 1rem;
+}
+
+.alumni img {
+    border: 3px solid #f2c602;
+    width: 100%;
+}
+
+.alumni h4 {
+    background-color: #f2c602;
+    border: 3px solid #f2c602;
+    color: white;
+    margin: 0;
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #5c8001;
+    justify-content: start;
+}
+
+footer h4 {
+    font-family: 'Montserrat';
+    font-size: 1.15rem;
+    margin-left: 10.25rem; 
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: left;
+    line-height: 3rem;
+    margin-left: 8rem;
+}
+
+ul li {
+    margin-right: 1.2rem;
+}
+
+ul a {
+    display: flex;
+    text-decoration: none;
+    color: #fcd11f;
+    font-family: 'Montserrat';
+}
+
+.copyright {
+    margin: 0;
+    background-color: #5c8001;
+}
